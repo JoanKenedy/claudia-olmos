@@ -14,13 +14,13 @@ export const CardService = ({ title, description, img, alt, className }) => {
             />
           </div>
         </div>
-        <div className="front bg-gradient-to-tl from-violet-400 to-violet-500">
+        <div className="front border border-blue-700">
           <div className="front-content flex justify-center items-center gap-2 md:gap-5">
-            <span className="font-semibold">{title}</span>
-            <p className="text-center">{description}</p>
+            <span className="font-bold text-blue-600 text-base">{title}</span>
+            <p className="text-center text-gray-600">{description}</p>
             <a
               data-ripple-light="true"
-              className="select-none rounded-lg bg-violet-600 py-3 px-6 text-center align-middle text-xs font-bold text-white shadow-md shadow-violet-500/20 transition-all hover:scale-105 hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:text-sm"
+              className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle text-xs font-bold text-white shadow-md shadow-slate-400 transition-all hover:scale-105 hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:text-sm"
               href={`https://wa.me/525565095139?text=Buenas%20tardes,%20solicito%20informaci%C3%B3n%20sobre%20su%20tratamiento%20de%20${title}`}
               rel="noopener noreferrer"
               target="_blank"

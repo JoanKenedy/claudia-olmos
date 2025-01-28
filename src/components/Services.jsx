@@ -1,12 +1,12 @@
 import { CardService } from "./CardService";
 import { TitleSection } from "./TitleSection";
-import ortodoncia from "../assets/orto.webp";
-import endodoncia from "../assets/endodoncia.webp";
-import cirugia from "../assets/cirugia.webp";
-import implante from "../assets/implante.png";
-import periodoncia from "../assets/periodoncia.webp";
-import general from "../assets/gral.jpg";
-import odontopediatria from "../assets/odontopediatria.webp";
+import ortodoncia from "../assets/ortodoncia.jpg";
+import endodoncia from "../assets/endodoncia.jpg";
+import cirugia from "../assets/cirugia.jpg";
+import implante from "../assets/implantes.jpg";
+import periodoncia from "../assets/periodoncia.jpg";
+import general from "../assets/general.jpg";
+import odontopediatria from "../assets/odontopediatria.jpg";
 
 // eslint-disable-next-line react/prop-types
 export const Services = ({ divRef }) => {

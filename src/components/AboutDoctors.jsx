@@ -1,6 +1,6 @@
 import { CardAbout } from "./CardAbout";
 
-import Claudia from "../assets/doctora.webp";
+import Claudia from "../assets/dra.jpg";
 
 export const AboutDoctors = () => {
   return (

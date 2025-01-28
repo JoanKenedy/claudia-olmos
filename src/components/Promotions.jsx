@@ -1,7 +1,10 @@
 import { CardPromo } from "./CardPromo";
-import promo from "../assets/implante-promo.png";
-import promo2 from "../assets/limpieza-promo.png";
-import promo3 from "../assets/blanquea-promo.png";
+import promo from "../assets/promo-1.jpg";
+import promo2 from "../assets/promo-2.jpg";
+import promo3 from "../assets/promo-3.jpg";
+import promo4 from "../assets/promo-4.jpg";
+import promo5 from "../assets/promo-5.jpg";
+
 import { TitleSection } from "./TitleSection";
 
 // eslint-disable-next-line react/prop-types
@@ -17,6 +20,14 @@ export const Promotions = ({ divRef }) => {
     },
     {
       imgSrc: promo3,
+      alt: "Promoción inicial",
+    },
+    {
+      imgSrc: promo4,
+      alt: "Promoción inicial",
+    },
+    {
+      imgSrc: promo5,
       alt: "Promoción inicial",
     },
   ];
