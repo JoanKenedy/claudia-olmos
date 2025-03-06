@@ -1,4 +1,4 @@
-import team from "../assets/nosotros.webp";
+import team from "../assets/olmos.png";
 import { CardColor } from "./CardColor";
 import { Certificate } from "./Certificate";
 import { Star } from "./Star";

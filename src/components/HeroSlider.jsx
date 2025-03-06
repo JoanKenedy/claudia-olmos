@@ -1,9 +1,9 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import heroDes from "../assets/slider-4.jpg";
-import hero2 from "../assets/slider-2.png";
+import hero2 from "../assets/slider-2.jpg";
 import hero3 from "../assets/slider-3.jpg";
-import hero4 from "../assets/slider-1.png";
+import hero4 from "../assets/slider-1.jpg";
 
 export const HeroSlider = ({ divRef }) => {
   const optionsSliderReviews = {

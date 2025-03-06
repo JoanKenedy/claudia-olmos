@@ -1,9 +1,8 @@
 import { CardPromo } from "./CardPromo";
 import promo from "../assets/promo-1.jpg";
-import promo2 from "../assets/promo-2.jpg";
 import promo3 from "../assets/promo-3.jpg";
 import promo4 from "../assets/promo-4.jpg";
-import promo5 from "../assets/promo-5.jpg";
+
 
 import { TitleSection } from "./TitleSection";
 
@@ -15,10 +14,6 @@ export const Promotions = ({ divRef }) => {
       alt: "Promoción inicial",
     },
     {
-      imgSrc: promo2,
-      alt: "Promoción inicial",
-    },
-    {
       imgSrc: promo3,
       alt: "Promoción inicial",
     },
@@ -26,10 +21,7 @@ export const Promotions = ({ divRef }) => {
       imgSrc: promo4,
       alt: "Promoción inicial",
     },
-    {
-      imgSrc: promo5,
-      alt: "Promoción inicial",
-    },
+    
   ];
 
   return (

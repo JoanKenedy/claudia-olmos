@@ -77,15 +77,7 @@ export const NavBar = ({ Function }) => {
                   Servicios
                 </a>
               </li>
-              <li>
-                <a
-                  href="/casos-clinicos"
-                  onClick={() => setIsOpen(false)}
-                  className="block py-2 px-3 transition text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl"
-                >
-                  Casos clínicos
-                </a>
-              </li>
+             
               <li>
                 <a
                   href="#promotion"
